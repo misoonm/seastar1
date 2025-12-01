@@ -1,0 +1,1487 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SeaStar | الذكاء الاصطناعي والتقنيات المتقدمة</title>
+    <meta name="description" content="SeaStar - شركة رائدة في الحلول التقنية المتقدمة، الذكاء الاصطناعي، الأمن السيبراني، وتصميم الواقع المعزز">
+    <meta name="keywords" content="تقنية معلومات, ذكاء اصطناعي, أمن سيبراني, تصميم مواقع, برمجة, تطوير تطبيقات">
+    <meta name="author" content="SeaStar Team">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SeaStar | الحلول التقنية المتقدمة">
+    <meta property="og:description" content="نقدم حلولاً متكاملة في التقنيات المتقدمة والذكاء الاصطناعي">
+    <meta property="og:image" content="https://seastar.com/images/og-image.jpg">
+    <meta property="og:url" content="https://seastar.com">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SeaStar">
+    <meta name="twitter:description" content="شركة رائدة في الحلول التقنية المتقدمة">
+    
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/icons/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="theme-color" content="#001a33">
+    
+    <!-- الخطوط -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- المكتبات الأساسية -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.12/sweetalert2.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/split-type@0.3.4/dist/index.css">
+    
+    <!-- CSS الرئيسي -->
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- Schema.org Markup -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Organization",
+        "name": "SeaStar",
+        "url": "https://seastar.com",
+        "logo": "https://seastar.com/logo.png",
+        "description": "شركة رائدة في الحلول التقنية المتقدمة، الذكاء الاصطناعي، الأمن السيبراني، وتصميم الواقع المعزز",
+        "contactPoint": {
+            "@type": "ContactPoint",
+            "telephone": "+967-779-168-887",
+            "contactType": "الدعم الفني",
+            "areaServed": "اليمن",
+            "availableLanguage": "العربية"
+        },
+        "sameAs": [
+            "https://facebook.com/SeaStar",
+            "https://twitter.com/SeaStar",
+            "https://instagram.com/SeaStar",
+            "https://linkedin.com/company/SeaStar"
+        ]
+    }
+    </script>
+</head>
+<body>
+    <!-- نظام الشاشات -->
+    <div class="loading-system">
+        <div class="loading-ring"></div>
+        <div class="loading-text typing-text">جاري تحميل النظام المتقدم...</div>
+        <div class="loading-progress">
+            <div class="progress-bar"></div>
+        </div>
+        <div class="loading-stats">
+            <div class="loading-stat">تهيئة الواجهة...</div>
+            <div class="loading-stat">تحميل المؤثرات...</div>
+            <div class="loading-stat">تشغيل الأنظمة...</div>
+        </div>
+    </div>
+    
+    <!-- العناصر الفائقة -->
+    <div id="particles-js"></div>
+    <div class="grid-system"></div>
+    <div class="dynamic-lighting"></div>
+    
+    <!-- العناصر العائمة -->
+    <div class="floating-element cyber-orb" style="width: 400px; height: 400px; top: 5%; left: 10%;" data-speed="0.1"></div>
+    <div class="floating-element cyber-orb" style="width: 300px; height: 300px; bottom: 10%; right: 5%;" data-speed="0.2"></div>
+    <div class="floating-element cyber-line" style="width: 100%; top: 50%;" data-speed="0.3"></div>
+    <div class="floating-element hologram-element" style="width: 150px; height: 150px; bottom: 20%; left: 15%;" data-speed="0.25"></div>
+    <div class="floating-element fluid-element" style="width: 200px; height: 200px; top: 30%; right: 10%;"></div>
+    
+    <!-- المؤشرات المخصصة -->
+    <div class="custom-cursor"></div>
+    <div class="cursor-follower"></div>
+    
+    <!-- شريط التقدم -->
+    <div class="progress-container">
+        <div class="progress-bar"></div>
+    </div>
+    
+    <!-- زر العودة للأعلى -->
+    <a href="#" class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </a>
+    
+    <!-- لوحة التحكم -->
+    <div class="theme-toggle">
+        <button class="theme-btn active" data-theme="cyber" style="background: linear-gradient(135deg, #00a8ff, #0be881);"></button>
+        <button class="theme-btn" data-theme="matrix" style="background: linear-gradient(135deg, #00ff41, #00f3ff);"></button>
+        <button class="theme-btn" data-theme="sunset" style="background: linear-gradient(135deg, #ff6b6b, #ffd93d);"></button>
+        <button class="theme-btn" data-theme="ocean" style="background: linear-gradient(135deg, #00b4d8, #90e0ef);"></button>
+    </div>
+    
+    <!-- نظام الموسيقى -->
+    <div class="music-controls">
+        <button class="music-btn" id="playMusic">
+            <i class="fas fa-play"></i>
+        </button>
+        <button class="music-btn" id="pauseMusic">
+            <i class="fas fa-pause"></i>
+        </button>
+        <div class="sound-wave">
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+            <div class="wave-bar"></div>
+        </div>
+        <input type="range" id="volumeControl" min="0" max="1" step="0.1" value="0.5">
+    </div>
+    
+    <!-- الأوامر الصوتية -->
+    <div class="voice-command-indicator">
+        <i class="fas fa-microphone"></i>
+    </div>
+    <div class="voice-feedback"></div>
+    
+    <!-- مركز الإشعارات -->
+    <div class="notification-center"></div>
+    
+    <!-- HUD العناصر -->
+    <div class="hud-element" style="top: 50px; right: 30px;">
+        <span class="hud-border"></span>
+        <div class="hud-label">الوقت</div>
+        <div class="hud-value" id="hud-time">--:--:--</div>
+    </div>
+    
+    <div class="hud-element" style="top: 130px; right: 30px;">
+        <span class="hud-border"></span>
+        <div class="hud-label">التاريخ</div>
+        <div class="hud-value" id="hud-date">--/--/----</div>
+    </div>
+    
+    <div class="hud-element" style="top: 210px; right: 30px;">
+        <span class="hud-border"></span>
+        <div class="hud-label">معدل الإطارات</div>
+        <div class="hud-value" id="hud-fps">60 FPS</div>
+    </div>
+    
+    <!-- نظام الدردشة الذكي -->
+    <div class="chat-widget">
+        <div class="chat-header">
+            <div class="chat-title">
+                <i class="fas fa-robot"></i>
+                مساعد SeaStar الذكي
+            </div>
+            <button class="chat-close">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chat-messages"></div>
+        <div class="chat-input-container">
+            <input type="text" class="chat-input" placeholder="اكتب رسالتك...">
+            <button class="chat-send">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+    
+    <!-- زر تثبيت PWA -->
+    <button class="install-btn hud-element" onclick="installApp()" style="display: none;">
+        <i class="fas fa-download"></i> تثبيت التطبيق
+    </button>
+    
+    <!-- نظام التنقل الرئيسي -->
+    <nav class="navbar">
+        <div class="logo hologram-container">
+            <span class="hologram-effect"></span>
+            SeaStar
+            <div class="logo-sub">تقنيات المستقبل</div>
+        </div>
+        
+        <div class="hamburger">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        
+        <ul class="nav-links">
+            <li><a href="#home" class="active nav-item" data-section="home">
+                <i class="fas fa-home"></i>
+                الرئيسية
+            </a></li>
+            
+            <li class="dropdown">
+                <a href="#services" class="dropbtn nav-item" data-section="services">
+                    <i class="fas fa-cogs"></i>
+                    الخدمات
+                    <i class="fas fa-caret-down"></i>
+                </a>
+                <div class="dropdown-content">
+                    <a href="#services" class="dropdown-item" data-service="ai">
+                        <i class="fas fa-brain"></i>
+                        الذكاء الاصطناعي
+                    </a>
+                    <a href="#services" class="dropdown-item" data-service="cyber">
+                        <i class="fas fa-shield-alt"></i>
+                        الأمن السيبراني
+                    </a>
+                    <a href="#services" class="dropdown-item" data-service="web">
+                        <i class="fas fa-code"></i>
+                        تطوير الويب
+                    </a>
+                    <a href="#services" class="dropdown-item" data-service="mobile">
+                        <i class="fas fa-mobile-alt"></i>
+                        تطبيقات الجوال
+                    </a>
+                    <a href="#services" class="dropdown-item" data-service="ar">
+                        <i class="fas fa-vr-cardboard"></i>
+                        الواقع المعزز
+                    </a>
+                    <a href="#services" class="dropdown-item" data-service="iot">
+                        <i class="fas fa-microchip"></i>
+                        إنترنت الأشياء
+                    </a>
+                </div>
+            </li>
+            
+            <li><a href="#portfolio" class="nav-item" data-section="portfolio">
+                <i class="fas fa-briefcase"></i>
+                أعمالنا
+            </a></li>
+            
+            <li><a href="#about" class="nav-item" data-section="about">
+                <i class="fas fa-users"></i>
+                من نحن
+            </a></li>
+            
+            <li><a href="#contact" class="nav-item" data-section="contact">
+                <i class="fas fa-envelope"></i>
+                اتصل بنا
+            </a></li>
+            
+            <li><a href="#blog" class="nav-item" data-section="blog">
+                <i class="fas fa-blog"></i>
+                المدونة
+            </a></li>
+            
+            <li><a href="mom/index.html" class="nav-item special" target="_blank">
+                <i class="fas fa-rocket"></i>
+                نظام سيستار
+            </a></li>
+        </ul>
+    </nav>
+    
+    <!-- شريط الأخبار المتحرك -->
+    <div class="news-ticker-container">
+        <div class="ticker-label">
+            <i class="fas fa-newspaper"></i> آخر الأخبار
+        </div>
+        <div class="ticker-content">
+            <a href="https://wa.me/+967777220455?text=أريد%20نسخة%20تجريبية%20لنظام%20swastar%20لمؤسستي التعليمية" class="ticker-item">
+                <i class="fas fa-graduation-cap"></i>
+                SeaStar تطلق نظام إدارة المؤسسات التعليمية
+            </a>
+            <a href="qrsea.html" class="ticker-item">
+                <i class="fas fa-qrcode"></i>
+                خدمة إنشاء الباركود الجديدة متاحة الآن
+            </a>
+            <a href="iot.html" class="ticker-item">
+                <i class="fas fa-robot"></i>
+                دورة الذكاء الاصطناعي المتقدمة تبدأ قريباً
+            </a>
+            <a href="news.html#3" class="ticker-item">
+                <i class="fas fa-palette"></i>
+                خصم 30% على خدمات التصميم الجرافيكي
+            </a>
+            <a href="news.html#4" class="ticker-item">
+                <i class="fas fa-handshake"></i>
+                تعاون جديد مع شركة التقنية العالمية
+            </a>
+        </div>
+    </div>
+    
+    <!-- شريط الميزات الجديدة -->
+    <div class="new-feature-bar">
+        <div class="new-feature-content">
+            <a href="qrsea.html" class="feature-item">
+                <i class="fas fa-bolt"></i>
+                تجربة الجيل الجديد من خدمات SeaStar مع تقنيات الذكاء الاصطناعي المتقدمة
+            </a>
+        </div>
+    </div>
+    
+    <!-- القسم الرئيسي -->
+    <main>
+        <!-- البطل (Hero Section) -->
+        <section id="home" class="hero-section reveal">
+            <div class="parallax-layer" data-depth="0.1">
+                <div class="grid-pattern"></div>
+            </div>
+            
+            <div class="hero-content" data-aos="fade-right">
+                <h1 class="neon-text morph-text" data-texts="SeaStar|تقنيات المستقبل|الذكاء الاصطناعي|الحلول المتكاملة">
+                    <span class="typing-text">حلول تقنية متكاملة لنمو أعمالك</span>
+                </h1>
+                
+                <p class="hero-subtitle">
+                    نقدم <span class="highlight">حلولاً مبتكرة</span> في الذكاء الاصطناعي، الأمن السيبراني، وتطوير الأنظمة المتقدمة
+                </p>
+                
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number digital-counter" data-count="150">0</div>
+                        <div class="stat-label">مشروع ناجح</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number digital-counter" data-count="8">0</div>
+                        <div class="stat-label">سنوات خبرة</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number digital-counter" data-count="50">0</div>
+                        <div class="stat-label">عميل راضٍ</div>
+                    </div>
+                </div>
+                
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary-btn btn-advanced btn-hologram">
+                        <i class="fas fa-paper-plane"></i>
+                        ابدأ مشروعك الآن
+                    </a>
+                    <a href="#services" class="btn secondary-btn btn-hologram">
+                        <i class="fas fa-play-circle"></i>
+                        شاهد أعمالنا
+                    </a>
+                </div>
+                
+                <div class="hero-scroll-indicator">
+                    <div class="scroll-text">مرر لأسفل</div>
+                    <div class="scroll-line">
+                        <div class="scroll-dot"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="hero-image" data-aos="fade-left">
+                <div class="hero-image-container hologram-container">
+                    <span class="hologram-effect"></span>
+                    <div class="image-3d image-glow">
+                        <img src="https://via.placeholder.com/600x400/00a8ff/ffffff?text=AI+Technology" 
+                             alt="تقنيات الذكاء الاصطناعي" 
+                             class="lazy-image" 
+                             data-src="images/ai-technology.jpg">
+                    </div>
+                    <div class="hero-image-overlay">
+                        <div class="overlay-content">
+                            <h3>نظام ذكي متكامل</h3>
+                            <p>تحويل الأفكار إلى حلول رقمية</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="floating-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- قسم الإحصائيات -->
+        <section class="stats-section reveal">
+            <div class="section-container">
+                <div class="stats-grid">
+                    <div class="stat-item card-3d">
+                        <div class="stat-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <div class="stat-number" data-count="200">0</div>
+                        <div class="stat-text">مشروع منجز</div>
+                        <div class="progress-bar" data-progress="95"></div>
+                    </div>
+                    
+                    <div class="stat-item card-3d">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number" data-count="85">0</div>
+                        <div class="stat-text">عميل دائم</div>
+                        <div class="progress-bar" data-progress="90"></div>
+                    </div>
+                    
+                    <div class="stat-item card-3d">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-number" data-count="15">0</div>
+                        <div class="stat-text">براءة اختراع</div>
+                        <div class="progress-bar" data-progress="80"></div>
+                    </div>
+                    
+                    <div class="stat-item card-3d">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stat-number" data-count="25">0</div>
+                        <div class="stat-text">جائزة عالمية</div>
+                        <div class="progress-bar" data-progress="85"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- قسم الخدمات -->
+        <section id="services" class="services-section reveal">
+            <div class="section-header">
+                <h2 class="section-title neon-text">
+                    <i class="fas fa-cogs"></i>
+                    خدماتنا المتقدمة
+                </h2>
+                <p class="section-subtitle">
+                    نقدم مجموعة شاملة من الحلول التقنية المتطورة
+                </p>
+            </div>
+            
+            <div class="filter-system">
+                <button class="filter-btn active" data-filter="all">الكل</button>
+                <button class="filter-btn" data-filter="ai">الذكاء الاصطناعي</button>
+                <button class="filter-btn" data-filter="security">الأمن السيبراني</button>
+                <button class="filter-btn" data-filter="development">التطوير</button>
+                <button class="filter-btn" data-filter="design">التصميم</button>
+            </div>
+            
+            <div class="services-grid">
+                <!-- خدمة الذكاء الاصطناعي -->
+                <div class="service-card card-3d filter-item" data-category="ai" data-aos="fade-up">
+                    <div class="card-content">
+                        <div class="service-icon">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3 class="service-title">الذكاء الاصطناعي</h3>
+                        <p class="service-description">
+                            تطوير أنظمة ذكاء اصطناعي متقدمة، تعلم الآلة، ومعالجة اللغات الطبيعية.
+                        </p>
+                        <div class="service-features">
+                            <span class="feature">روبوتات محادثة</span>
+                            <span class="feature">تحليل البيانات</span>
+                            <span class="feature">رؤية حاسوبية</span>
+                        </div>
+                        <div class="skill-meter-container">
+                            <div class="skill-label">
+                                <span>التقدم</span>
+                                <span>95%</span>
+                            </div>
+                            <div class="skill-meter">
+                                <div class="skill-level" data-level="95"></div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="service-link">
+                            <span>اطلب الخدمة</span>
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+                
+                <!-- خدمة الأمن السيبراني -->
+                <div class="service-card card-3d filter-item" data-category="security" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card-content">
+                        <div class="service-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3 class="service-title">الأمن السيبراني</h3>
+                        <p class="service-description">
+                            حلول حماية شاملة، اختبار الاختراق، واستشارات أمن المعلومات.
+                        </p>
+                        <div class="service-features">
+                            <span class="feature">حماية البيانات</span>
+                            <span class="feature">مراقبة الشبكات</span>
+                            <span class="feature">استجابة للحوادث</span>
+                        </div>
+                        <div class="skill-meter-container">
+                            <div class="skill-label">
+                                <span>التقدم</span>
+                                <span>90%</span>
+                            </div>
+                            <div class="skill-meter">
+                                <div class="skill-level" data-level="90"></div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="service-link">
+                            <span>اطلب الخدمة</span>
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+                
+                <!-- خدمة تطوير الويب -->
+                <div class="service-card card-3d filter-item" data-category="development" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card-content">
+                        <div class="service-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3 class="service-title">تطوير الويب</h3>
+                        <p class="service-description">
+                            تطوير مواقع وتطبيقات ويب متقدمة، سريعة، وآمنة.
+                        </p>
+                        <div class="service-features">
+                            <span class="feature">تطبيقات متقدمة</span>
+                            <span class="feature">متاجر إلكترونية</span>
+                            <span class="feature">أنظمة إدارة</span>
+                        </div>
+                        <div class="skill-meter-container">
+                            <div class="skill-label">
+                                <span>التقدم</span>
+                                <span>98%</span>
+                            </div>
+                            <div class="skill-meter">
+                                <div class="skill-level" data-level="98"></div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="service-link">
+                            <span>اطلب الخدمة</span>
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+                
+                <!-- خدمة تطبيقات الجوال -->
+                <div class="service-card card-3d filter-item" data-category="development" data-aos="fade-up" data-aos-delay="300">
+                    <div class="card-content">
+                        <div class="service-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h3 class="service-title">تطبيقات الجوال</h3>
+                        <p class="service-description">
+                            تصميم وتطوير تطبيقات جوال مبتكرة لأنظمة iOS و Android.
+                        </p>
+                        <div class="service-features">
+                            <span class="feature">تطبيقات أصلية</span>
+                            <span class="feature">تطبيقات هجينة</span>
+                            <span class="feature">ألعاب جوال</span>
+                        </div>
+                        <div class="skill-meter-container">
+                            <div class="skill-label">
+                                <span>التقدم</span>
+                                <span>92%</span>
+                            </div>
+                            <div class="skill-meter">
+                                <div class="skill-level" data-level="92"></div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="service-link">
+                            <span>اطلب الخدمة</span>
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+                
+                <!-- خدمة الواقع المعزز -->
+                <div class="service-card card-3d filter-item" data-category="ai" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card-content">
+                        <div class="service-icon">
+                            <i class="fas fa-vr-cardboard"></i>
+                        </div>
+                        <h3 class="service-title">الواقع المعزز</h3>
+                        <p class="service-description">
+                            تطوير حلول واقع معزز وتفاعلي للتعليم والتسويق والترفيه.
+                        </p>
+                        <div class="service-features">
+                            <span class="feature">تجارب تفاعلية</span>
+                            <span class="feature">عرض المنتجات</span>
+                            <span class="feature">تعليم تفاعلي</span>
+                        </div>
+                        <div class="skill-meter-container">
+                            <div class="skill-label">
+                                <span>التقدم</span>
+                                <span>85%</span>
+                            </div>
+                            <div class="skill-meter">
+                                <div class="skill-level" data-level="85"></div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="service-link">
+                            <span>اطلب الخدمة</span>
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+                
+                <!-- خدمة إنترنت الأشياء -->
+                <div class="service-card card-3d filter-item" data-category="ai" data-aos="fade-up" data-aos-delay="500">
+                    <div class="card-content">
+                        <div class="service-icon">
+                            <i class="fas fa-microchip"></i>
+                        </div>
+                        <h3 class="service-title">إنترنت الأشياء</h3>
+                        <p class="service-description">
+                            حلول إنترنت الأشياء للمدن الذكية، المنازل الذكية، والصناعة.
+                        </p>
+                        <div class="service-features">
+                            <span class="feature">أجهزة ذكية</span>
+                            <span class="feature">أنظمة مراقبة</span>
+                            <span class="feature">تحليل بيانات</span>
+                        </div>
+                        <div class="skill-meter-container">
+                            <div class="skill-label">
+                                <span>التقدم</span>
+                                <span>88%</span>
+                            </div>
+                            <div class="skill-meter">
+                                <div class="skill-level" data-level="88"></div>
+                            </div>
+                        </div>
+                        <a href="#contact" class="service-link">
+                            <span>اطلب الخدمة</span>
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                    <div class="card-glow"></div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- قسم الأعمال -->
+        <section id="portfolio" class="portfolio-section reveal">
+            <div class="section-header">
+                <h2 class="section-title neon-text">
+                    <i class="fas fa-briefcase"></i>
+                    أحدث أعمالنا
+                </h2>
+                <p class="section-subtitle">
+                    مشاريع ناجحة قمنا بتنفيذها لعملائنا
+                </p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <!-- مشروع 1 -->
+                <div class="portfolio-item card-3d" data-aos="zoom-in">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/00a8ff/ffffff?text=AI+System" 
+                             alt="نظام ذكاء اصطناعي" 
+                             class="lazy-image"
+                             data-src="images/project-ai.jpg">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>نظام ذكاء اصطناعي متقدم</h3>
+                                <p>تحليل بيانات وتنبؤات ذكية</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">الذكاء الاصطناعي</div>
+                        <h3 class="portfolio-title">منصة تحليل البيانات الذكية</h3>
+                        <p class="portfolio-description">
+                            نظام متكامل لتحليل البيانات الضخمة وتقديم رؤى ذكية.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">TensorFlow</span>
+                            <span class="tech-tag">React</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- مشروع 2 -->
+                <div class="portfolio-item card-3d" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/0be881/ffffff?text=E-Commerce" 
+                             altمنصة تجارة إلكترونية" 
+                             class="lazy-image"
+                             data-src="images/project-ecommerce.jpg">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>منصة تجارة إلكترونية</h3>
+                                <p>متجر إلكتروني متكامل</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">تطوير الويب</div>
+                        <h3 class="portfolio-title">منصة تجارة إلكترونية متقدمة</h3>
+                        <p class="portfolio-description">
+                            نظام إدارة متكامل للمتاجر الإلكترونية مع دعم الدفع الإلكتروني.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Laravel</span>
+                            <span class="tech-tag">Vue.js</span>
+                            <span class="tech-tag">MySQL</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- مشروع 3 -->
+                <div class="portfolio-item card-3d" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="portfolio-image">
+                        <img src="https://via.placeholder.com/400x300/9c88ff/ffffff?text=Mobile+App" 
+                             alt="تطبيق جوال" 
+                             class="lazy-image"
+                             data-src="images/project-mobile.jpg">
+                        <div class="portfolio-overlay">
+                            <div class="overlay-content">
+                                <h3>تطبيق جوال ذكي</h3>
+                                <p>إدارة المهام والوقت</p>
+                                <a href="#" class="portfolio-link">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">تطبيقات الجوال</div>
+                        <h3 class="portfolio-title">تطبيق إدارة المهام الذكي</h3>
+                        <p class="portfolio-description">
+                            تطبيق متكامل لإدارة المهام والوقت باستخدام الذكاء الاصطناعي.
+                        </p>
+                        <div class="portfolio-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">Firebase</span>
+                            <span class="tech-tag">Dart</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="section-footer">
+                <a href="portfolio.html" class="btn secondary-btn btn-advanced">
+                    <i class="fas fa-eye"></i>
+                    عرض جميع الأعمال
+                </a>
+            </div>
+        </section>
+        
+        <!-- قسم الجدول الزمني -->
+        <section class="timeline-section reveal">
+            <div class="section-header">
+                <h2 class="section-title neon-text">
+                    <i class="fas fa-history"></i>
+                    رحلتنا التقنية
+                </h2>
+                <p class="section-subtitle">
+                    أهم المحطات في مسيرتنا نحو الريادة التقنية
+                </p>
+            </div>
+            
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content card-3d">
+                        <div class="timeline-date">2018</div>
+                        <h3 class="timeline-title">تأسيس SeaStar</h3>
+                        <p class="timeline-description">
+                            بدأنا رحلتنا بمشاريع صغيرة في تطوير الويب والتصميم.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content card-3d">
+                        <div class="timeline-date">2019</div>
+                        <h3 class="timeline-title">توسعة الخدمات</h3>
+                        <p class="timeline-description">
+                            أضفنا خدمات الأمن السيبراني وتطبيقات الجوال إلى محفظتنا.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content card-3d">
+                        <div class="timeline-date">2020</div>
+                        <h3 class="timeline-title">الذكاء الاصطناعي</h3>
+                        <p class="timeline-description">
+                            انطلاق مشاريع الذكاء الاصطناعي وإنترنت الأشياء.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="timeline-item">
+                    <div class="timeline-content card-3d">
+                        <div class="timeline-date">2023</div>
+                        <h3 class="timeline-title">الواقع المعزز</h3>
+                        <p class="timeline-description">
+                            إطلاق خدمات الواقع المعزز والميتافيرس.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- قسم الفريق -->
+        <section id="about" class="team-section reveal">
+            <div class="section-header">
+                <h2 class="section-title neon-text">
+                    <i class="fas fa-users"></i>
+                    فريقنا المتميز
+                </h2>
+                <p class="section-subtitle">
+                    خبراء ومطورون متخصصون في أحدث التقنيات
+                </p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-member card-3d" data-aos="flip-left">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/200x200/00a8ff/ffffff?text=CEO" 
+                             alt="المدير التنفيذي" 
+                             class="lazy-image"
+                             data-src="images/team-ceo.jpg">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">أحمد السعيد</h3>
+                        <div class="member-role">المدير التنفيذي</div>
+                        <p class="member-bio">
+                            خبير في التقنيات الناشئة مع 15 سنة خبرة في إدارة المشاريع التقنية.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">القيادة</span>
+                            <span class="skill-tag">الإستراتيجية</span>
+                            <span class="skill-tag">التخطيط</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member card-3d" data-aos="flip-left" data-aos-delay="100">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/200x200/0be881/ffffff?text=CTO" 
+                             alt="مدير التقنية" 
+                             class="lazy-image"
+                             data-src="images/team-cto.jpg">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">سارة محمد</h3>
+                        <div class="member-role">مدير التقنية</div>
+                        <p class="member-bio">
+                            مطورة برمجيات مع خبرة في الذكاء الاصطناعي والأمن السيبراني.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">AI/ML</span>
+                            <span class="skill-tag">Cybersecurity</span>
+                            <span class="skill-tag">Blockchain</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="team-member card-3d" data-aos="flip-left" data-aos-delay="200">
+                    <div class="member-image">
+                        <img src="https://via.placeholder.com/200x200/9c88ff/ffffff?text=Lead+Dev" 
+                             alt="رئيس المطورين" 
+                             class="lazy-image"
+                             data-src="images/team-lead.jpg">
+                    </div>
+                    <div class="member-info">
+                        <h3 class="member-name">محمد علي</h3>
+                        <div class="member-role">رئيس المطورين</div>
+                        <p class="member-bio">
+                            متخصص في تطوير الويب وتطبيقات الجوال مع خبرة 10 سنوات.
+                        </p>
+                        <div class="member-skills">
+                            <span class="skill-tag">React</span>
+                            <span class="skill-tag">Flutter</span>
+                            <span class="skill-tag">Node.js</span>
+                        </div>
+                        <div class="member-social">
+                            <a href="#"><i class="fab fa-linkedin"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- قسم العملاء -->
+        <section class="clients-section reveal">
+            <div class="section-header">
+                <h2 class="section-title neon-text">
+                    <i class="fas fa-handshake"></i>
+                    عملاؤنا الثقة
+                </h2>
+                <p class="section-subtitle">
+                    شركاء النجاح الذين وثقوا بخدماتنا
+                </p>
+            </div>
+            
+            <div class="clients-grid">
+                <div class="client-item">
+                    <img src="https://via.placeholder.com/150x80/001a33/ffffff?text=Client+1" 
+                         alt="عميل 1" 
+                         class="client-logo lazy-image"
+                         data-src="images/client1.png">
+                </div>
+                <div class="client-item">
+                    <img src="https://via.placeholder.com/150x80/001a33/ffffff?text=Client+2" 
+                         alt="عميل 2" 
+                         class="client-logo lazy-image"
+                         data-src="images/client2.png">
+                </div>
+                <div class="client-item">
+                    <img src="https://via.placeholder.com/150x80/001a33/ffffff?text=Client+3" 
+                         alt="عميل 3" 
+                         class="client-logo lazy-image"
+                         data-src="images/client3.png">
+                </div>
+                <div class="client-item">
+                    <img src="https://via.placeholder.com/150x80/001a33/ffffff?text=Client+4" 
+                         alt="عميل 4" 
+                         class="client-logo lazy-image"
+                         data-src="images/client4.png">
+                </div>
+                <div class="client-item">
+                    <img src="https://via.placeholder.com/150x80/001a33/ffffff?text=Client+5" 
+                         alt="عميل 5" 
+                         class="client-logo lazy-image"
+                         data-src="images/client5.png">
+                </div>
+            </div>
+        </section>
+        
+        <!-- قسم المدونة -->
+        <section id="blog" class="blog-section reveal">
+            <div class="section-header">
+                <h2 class="section-title neon-text">
+                    <i class="fas fa-blog"></i>
+                    أحدث المقالات
+                </h2>
+                <p class="section-subtitle">
+                    أخبار وتحديثات من عالم التقنية
+                </p>
+            </div>
+            
+            <div class="blog-grid">
+                <article class="blog-card card-3d" data-aos="fade-up">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250/00a8ff/ffffff?text=AI+Trends" 
+                             alt="اتجاهات الذكاء الاصطناعي" 
+                             class="lazy-image"
+                             data-src="images/blog-ai.jpg">
+                        <div class="blog-category">الذكاء الاصطناعي</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">
+                                <i class="far fa-calendar"></i>
+                                15 مايو 2024
+                            </span>
+                            <span class="blog-read-time">
+                                <i class="far fa-clock"></i>
+                                5 دقائق قراءة
+                            </span>
+                        </div>
+                        <h3 class="blog-title">أهم اتجاهات الذكاء الاصطناعي في 2024</h3>
+                        <p class="blog-excerpt">
+                            تعرف على أحدث التطورات في عالم الذكاء الاصطناعي وكيف ستغير مستقبل التقنية.
+                        </p>
+                        <a href="blog-single.html" class="blog-link">
+                            اقرأ المزيد
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="blog-card card-3d" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250/0be881/ffffff?text=Cybersecurity" 
+                             alt="الأمن السيبراني" 
+                             class="lazy-image"
+                             data-src="images/blog-security.jpg">
+                        <div class="blog-category">الأمن السيبراني</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">
+                                <i class="far fa-calendar"></i>
+                                10 مايو 2024
+                            </span>
+                            <span class="blog-read-time">
+                                <i class="far fa-clock"></i>
+                                7 دقائق قراءة
+                            </span>
+                        </div>
+                        <h3 class="blog-title">أفضل ممارسات الأمن السيبراني للشركات</h3>
+                        <p class="blog-excerpt">
+                            نصائح وحلول عملية لحماية بيانات شركتك من الهجمات الإلكترونية المتقدمة.
+                        </p>
+                        <a href="blog-single.html" class="blog-link">
+                            اقرأ المزيد
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="blog-card card-3d" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="https://via.placeholder.com/400x250/9c88ff/ffffff?text=Web+Dev" 
+                             alt="تطوير الويب" 
+                             class="lazy-image"
+                             data-src="images/blog-web.jpg">
+                        <div class="blog-category">تطوير الويب</div>
+                    </div>
+                    <div class="blog-content">
+                        <div class="blog-meta">
+                            <span class="blog-date">
+                                <i class="far fa-calendar"></i>
+                                5 مايو 2024
+                            </span>
+                            <span class="blog-read-time">
+                                <i class="far fa-clock"></i>
+                                4 دقائق قراءة
+                            </span>
+                        </div>
+                        <h3 class="blog-title">تقنيات تطوير الويب الحديثة في 2024</h3>
+                        <p class="blog-excerpt">
+                            اكتشف أحدث التقنيات والأطر البرمجية التي ستغير طريقة تطوير الويب.
+                        </p>
+                        <a href="blog-single.html" class="blog-link">
+                            اقرأ المزيد
+                            <i class="fas fa-arrow-left"></i>
+                        </a>
+                    </div>
+                </article>
+            </div>
+            
+            <div class="section-footer">
+                <a href="blog.html" class="btn secondary-btn btn-advanced">
+                    <i class="fas fa-book-open"></i>
+                    عرض جميع المقالات
+                </a>
+            </div>
+        </section>
+        
+        <!-- قسم التقييمات -->
+        <section class="testimonials-section reveal">
+            <div class="section-header">
+                <h2 class="section-title neon-text">
+                    <i class="fas fa-star"></i>
+                    آراء عملائنا
+                </h2>
+                <p class="section-subtitle">
+                    انطباعات العملاء الذين استفادوا من خدماتنا
+                </p>
+            </div>
+            
+            <div class="testimonials-slider">
+                <div class="testimonial-item card-3d">
+                    <div class="testimonial-content">
+                        <div class="rating-stars">
+                            <i class="fas fa-star active"></i>
+                            <i class="fas fa-star active"></i>
+                            <i class="fas fa-star active"></i>
+                            <i class="fas fa-star active"></i>
+                            <i class="fas fa-star active"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "خدمة ممتازة وفريق عمل محترف! لقد ساعدونا في تطوير نظام ذكاء اصطناعي متقدم فاق توقعاتنا."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/50x50/00a8ff/ffffff?text=AS" 
+                                 alt="أحمد السعيد" 
+                                 class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">أحمد السعيد</h4>
+                                <p class="author-role">مدير شركة التقنية المتطورة</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-item card-3d">
+                    <div class="testimonial-content">
+                        <div class="rating-stars">
+                            <i class="fas fa-star active"></i>
+                            <i class="fas fa-star active"></i>
+                            <i class="fas fa-star active"></i>
+                            <i class="fas fa-star active"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <p class="testimonial-text">
+                            "ترجمة دقيقة وتصميم إبداعي، أنصح بالتعامل معهم بشدة لكل من يبحث عن جودة عالية."
+                        </p>
+                        <div class="testimonial-author">
+                            <img src="https://via.placeholder.com/50x50/0be881/ffffff?text=SM" 
+                                 alt="سارة محمد" 
+                                 class="author-image">
+                            <div class="author-info">
+                                <h4 class="author-name">سارة محمد</h4>
+                                <p class="author-role">مؤسسة النور التعليمية</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- قسم التحليلات -->
+        <section class="analytics-section reveal">
+            <div class="analytics-panel card-3d">
+                <h3 class="analytics-title">
+                    <i class="fas fa-chart-line"></i>
+                    التحليلات الحية
+                </h3>
+                <div class="analytics-grid">
+                    <div class="analytics-item">
+                        <div class="analytics-icon">
+                            <i class="fas fa-eye"></i>
+                        </div>
+                        <div class="analytics-number" id="analytics-views">0</div>
+                        <div class="analytics-label">مشاهدات اليوم</div>
+                    </div>
+                    <div class="analytics-item">
+                        <div class="analytics-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="analytics-number" id="analytics-users">0</div>
+                        <div class="analytics-label">المستخدمون النشطون</div>
+                    </div>
+                    <div class="analytics-item">
+                        <div class="analytics-icon">
+                            <i class="fas fa-mouse-pointer"></i>
+                        </div>
+                        <div class="analytics-number" id="analytics-clicks">0</div>
+                        <div class="analytics-label">نقرات اليوم</div>
+                    </div>
+                    <div class="analytics-item">
+                        <div class="analytics-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="analytics-number" id="analytics-time">0</div>
+                        <div class="analytics-label">دقيقة متوسط الزيارة</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <!-- قسم الاتصال -->
+        <section id="contact" class="contact-section reveal">
+            <div class="section-header">
+                <h2 class="section-title neon-text">
+                    <i class="fas fa-envelope"></i>
+                    تواصل معنا
+                </h2>
+                <p class="section-subtitle">
+                    نحن هنا لمساعدتك في بدء مشروعك التقني
+                </p>
+            </div>
+            
+            <div class="contact-container">
+                <div class="contact-info card-3d">
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>العنوان</h3>
+                            <p>صنعاء، دارس، المدينة الخضراء</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>الهاتف</h3>
+                            <p>+967 779 168 887</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>البريد الإلكتروني</h3>
+                            <p>prcmased@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-item">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>ساعات العمل</h3>
+                            <p>الأحد - الخميس: 9 ص - 5 م</p>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/profile.php?id=61569730196174" class="social-link">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://x.com/Sea_st_ar?s=09" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/sea-star-67a18a372" class="social-link">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="https://www.instagram.com/sea_st_ar" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="https://github.com/SeaStar" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="contact-form card-3d">
+                    <form id="contactForm" class="hologram-container">
+                        <span class="hologram-effect"></span>
+                        
+                        <div class="form-group">
+                            <label for="name">
+                                <i class="fas fa-user"></i>
+                                الاسم الكامل
+                            </label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">
+                                <i class="fas fa-envelope"></i>
+                                البريد الإلكتروني
+                            </label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">
+                                <i class="fas fa-phone"></i>
+                                رقم الهاتف
+                            </label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="service">
+                                <i class="fas fa-cogs"></i>
+                                الخدمة المطلوبة
+                            </label>
+                            <select id="service" name="service">
+                                <option value="">اختر الخدمة</option>
+                                <option value="ai">الذكاء الاصطناعي</option>
+                                <option value="security">الأمن السيبراني</option>
+                                <option value="web">تطوير الويب</option>
+                                <option value="mobile">تطبيقات الجوال</option>
+                                <option value="ar">الواقع المعزز</option>
+                                <option value="consultation">استشارة تقنية</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">
+                                <i class="fas fa-comment"></i>
+                                تفاصيل المشروع
+                            </label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <div class="form-footer">
+                            <button type="submit" class="btn primary-btn btn-advanced">
+                                <i class="fas fa-paper-plane"></i>
+                                إرسال الرسالة
+                            </button>
+                            
+                            <div class="form-note">
+                                <i class="fas fa-info-circle"></i>
+                                سنرد عليك خلال 24 ساعة عمل
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        
+        <!-- قسم الحث على الاتصال -->
+        <section class="cta-section reveal">
+            <div class="cta-banner card-3d">
+                <div class="cta-content">
+                    <h2 class="cta-title neon-text">هل أنت مستعد لبدء مشروعك التقني؟</h2>
+                    <p class="cta-description">
+                        تواصل معنا اليوم ودعنا نحول أفكارك إلى حلول تقنية متقدمة
+                    </p>
+                    
+                    <div class="cta-buttons">
+                        <a href="#contact" class="btn primary-btn btn-advanced btn-hologram">
+                            <i class="fas fa-paper-plane"></i>
+                            تواصل معنا الآن
+                        </a>
+                        <a href="tel:+967779168887" class="btn secondary-btn btn-advanced btn-hologram">
+                            <i class="fas fa-phone"></i>
+                            اتصل بنا مباشرة
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="cta-image">
+                    <img src="https://via.placeholder.com/300x200/00a8ff/ffffff?text=Start+Now" 
+                         alt="ابدأ الآن" 
+                         class="lazy-image"
+                         data-src="images/cta-image.jpg">
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <div class="footer-logo">
+                    <div class="logo">SeaStar</div>
+                    <p class="footer-description">
+                        شركة رائدة في تقديم الحلول التقنية المتقدمة والذكاء الاصطناعي.
+                    </p>
+                </div>
+                
+                <div class="newsletter">
+                    <h4 class="footer-title">النشرة البريدية</h4>
+                    <p>اشترك للحصول على آخر التحديثات والعروض.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                        <button type="submit">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-title">روابط سريعة</h4>
+                <ul class="footer-links">
+                    <li><a href="#home"><i class="fas fa-arrow-left"></i> الرئيسية</a></li>
+                    <li><a href="#services"><i class="fas fa-arrow-left"></i> الخدمات</a></li>
+                    <li><a href="#portfolio"><i class="fas fa-arrow-left"></i> أعمالنا</a></li>
+                    <li><a href="#about"><i class="fas fa-arrow-left"></i> من نحن</a></li>
+                    <li><a href="#blog"><i class="fas fa-arrow-left"></i> المدونة</a></li>
+                    <li><a href="#contact"><i class="fas fa-arrow-left"></i> اتصل بنا</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-title">خدماتنا</h4>
+                <ul class="footer-services">
+                    <li><a href="#services" data-service="ai"><i class="fas fa-brain"></i> الذكاء الاصطناعي</a></li>
+                    <li><a href="#services" data-service="security"><i class="fas fa-shield-alt"></i> الأمن السيبراني</a></li>
+                    <li><a href="#services" data-service="web"><i class="fas fa-code"></i> تطوير الويب</a></li>
+                    <li><a href="#services" data-service="mobile"><i class="fas fa-mobile-alt"></i> تطبيقات الجوال</a></li>
+                    <li><a href="#services" data-service="ar"><i class="fas fa-vr-cardboard"></i> الواقع المعزز</a></li>
+                    <li><a href="iot.html"><i class="fas fa-microchip"></i> إنترنت الأشياء</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4 class="footer-title">معلومات إضافية</h4>
+                <ul class="footer-info">
+                    <li><a href="privacy-policy.html"><i class="fas fa-lock"></i> سياسة الخصوصية</a></li>
+                    <li><a href="terms.html"><i class="fas fa-file-contract"></i> شروط الخدمة</a></li>
+                    <li><a href="faq.html"><i class="fas fa-question-circle"></i> الأسئلة الشائعة</a></li>
+                    <li><a href="careers.html"><i class="fas fa-briefcase"></i> الوظائف الشاغرة</a></li>
+                    <li><a href="sitemap.xml"><i class="fas fa-sitemap"></i> خريطة الموقع</a></li>
+                </ul>
+                
+                <div class="footer-badges">
+                    <div class="badge">
+                        <i class="fas fa-shield-alt"></i>
+                        موقع آمن
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-bolt"></i>
+                        سريع التحميل
+                    </div>
+                    <div class="badge">
+                        <i class="fas fa-mobile-alt"></i>
+                        متوافق مع الجوال
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2025 <strong>SeaStar</strong>. جميع الحقوق محفوظة.</p>
+                <p>تم تطوير الموقع باستخدام أحدث التقنيات مع ❤️ بواسطة فريق SeaStar</p>
+            </div>
+            
+            <div class="footer-extra">
+                <div class="language-selector">
+                    <select id="language">
+                        <option value="ar" selected>العربية</option>
+                        <option value="en">English</option>
+                    </select>
+                </div>
+                
+                <div class="weather-display">
+                    <i class="fas fa-sun"></i>
+                    <span id="weather">24°C صنعاء</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- الأقسام الإضافية -->
+    <div class="extra-features">
+        <!-- مساعد الواقع المعزز -->
+        <button class="ar-assistant-btn">
+            <i class="fas fa-vr-cardboard"></i>
+            مساعد AR
+        </button>
+        
+        <!-- محول الألوان -->
+        <div class="color-converter">
+            <input type="color" id="colorPicker" value="#00a8ff">
+            <label for="colorPicker">اختر لوناً</label>
+        </div>
+        
+        <!-- عداد الزوار -->
+        <div class="visitor-counter">
+            <i class="fas fa-users"></i>
+            <span id="visitorCount">0</span>
+            زائر
+        </div>
+    </div>
+    
+    <!-- مكتبات JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollToPlugin.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/TextPlugin.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tone/14.8.49/Tone.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/annyang@2.6.1/dist/annyang.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.12/sweetalert2.min.js"></script>
+    
+    <!-- JavaScript الرئيسي -->
+    <script src="main.js"></script>
+    
+    <!-- Service Worker -->
+    <script>
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/sw.js');
+            });
+        }
+    </script>
+</body>
+</html>
